@@ -1,0 +1,144 @@
+<!--Sharon Joseph 8978266-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--SEO Meta Tags-->
+    <meta name="description" content="Learn about Lionel Messi, the greatest footballer of all time, his biography, achievements, and career.">
+    <meta name="keywords" content="Lionel Messi, football, soccer, Ballon d'Or, Argentina, FC Barcelona, PSG, Inter Miami">
+
+    <title>Lionel Messi - FootBall Legend</title> <!--Main Title-->
+    <link rel="stylesheet" href="css/style.css"> <!--Link external CSS-->
+</head>
+<body>
+    <!--Header Section-->
+    <header>
+    <h1>Lionel Messi</h1>
+    </header>
+
+    <!--Main Content Section-->
+    <main>
+        <!--Biography Section-->
+    <selection id="Biography">
+        <h2>Biography</h2>
+        <blockquote cite="https://www.biography.com/athlete/lionel-messi">
+            "Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer...">
+        </blockquote>
+        <p>Lionel Andrés Messi was born on June 24, 1987, in Rosario, Argentina. From a young age, he displayed exceptional football talent but was diagnosed with growth hormone deficiency at 10. In 2000, FC Barcelona offered to pay for his treatment, and he moved to Spain, joining La Masia, the club’s youth academy.
+
+            Messi made his senior debut for Barcelona in 2004 at just 17. Over 17 years, he won 10 La Liga titles, 4 UEFA Champions Leagues, and 6 European Golden Shoes, becoming Barcelona’s all-time top scorer (672 goals). In 2012, he set a record by scoring 91 goals in a calendar year. Due to financial constraints, he left in 2021 and joined Paris Saint-Germain (PSG), winning two Ligue 1 titles. In 2023, he moved to Inter Miami, boosting the popularity of Major League Soccer (MLS).
+            
+            Internationally, Messi endured heartbreak in the 2014 FIFA World Cup final but led Argentina to victory in the 2021 Copa América and the 2022 FIFA World Cup, solidifying his legacy.
+            
+            Messi has won a record 8 Ballon d’Or awards and is regarded as one of the greatest footballers of all time. Off the field, he is married to Antonela Roccuzzo, with whom he has three sons. Through the Leo Messi Foundation, he supports various charities. His humility, talent, and dedication have made him an enduring football icon.</p>
+    </selection>
+
+
+    <selection id="image">
+        <h2>Messi Image</h2>
+        <figure>
+        <img src="images/messi.jpg"
+         alt="Lionel Messi celebrating the GOAL" style="width: 400px; height: auto;">
+            <figcaption>Messi celebrating his goal with a smile</figcaption>
+        </figure>
+    </selection>
+    </main>
+
+    <!--Extrta Information-->
+    <aside>
+        <section id="Related - links">
+            <h2>More about Messi</h2>
+            <h3>Ballon d'Or Wins</h3>
+            <p>Messi has won the Ballon d'Or a record 8 times...</p>
+            <h3>World Cup Victory</h3>
+            <p>In 2022, Messi led Argentina to a historic FIFA World Cup win...</p>
+            <p>Explore more about Lionel Messi through these useful links:</p>
+
+            <!--Unordered List with 3 External Links-->
+            <ul>
+                <li><a href="https://www.fifa.com" target="_blank" title="Official FIFA Website">FIFA Official Website</a></li>
+                <li><a href="https://www.goal.com" target="_blank">Goal.com</a></li>
+                <li><a href="https://www.fcbarcelona.com" target="_blank" title="Messi's former club, FC Barcelona">FC Barcelona Official</a></li>
+            </ul>
+
+        </section>
+
+        <!--Contact Section-->
+        <section id="Contact">
+            <h2>Contact</h2>
+            <p>Get in touch with Messi's official representatives</p>
+
+            <!--Contact Form-->
+            <form action="submit -form.php" method="POST">
+
+                <!--Name Input-->
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required autofocus>
+
+                <!--Email Input-->
+                <label for="Email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your Email" required>
+
+                <!--Message Textarea-->
+                <label for="message" class="form-label">your message:</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Type your message here" required></textarea>
+
+                <!--Dropdown-->
+                <label for="inquiry" class="form-label">Reason for Contact:</label>
+                <select id="inquiry" name="inquiry" class="form-control" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="business">business inquiry</option>
+                    <option value="fan-mail">Fan Mail</option>
+                    <option value="media">Media Request</option>
+                </select>
+
+                <!--HTML5 Inout Element (Date)-->
+                <label for="appoinment" class="form-label">Preffered Appoinment Date:</label>
+                <input type="date" id="appoinment" name="appoinment" class="form-control" required>
+
+                <!--Submit Button-->
+                <input type="submit" value="send message" class="form-control">
+            </form>
+        </section>
+
+    </aside>
+
+    <!--Achievements Section-->
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Messi has won multiple Ballon d'Or awards and led Argentina to victory in the 2022 FIFA World Cup.</p>
+    </section>
+
+    <!--Quotes Section-->
+    <section id="--Quotes">
+        <h2>Famous Quotes</h2>
+        <p>
+            <q cite="https://www.brainyquote.com/quotes/lionel_messi_693327">
+            You have to fight to reach your dream. You have to sacrifice and work hard for it." - Lionel Messi
+        </q>
+        <cite> - Lionel Messi</cite>
+        </p>
+    </section>
+
+    <!--Skills Section-->
+    <section id="--Skills">
+        <h2>Extraordinary Skills</h2>
+        <p>Lionel Messi's extraordinary skills have made him one of the most celebrated footballers in history</p>
+    </section>
+
+<!--Multimedia Section-->
+<section id="--Multimedia">
+    <h2>--Multimedia</h2>
+    <video controls width="400">
+        <source src="Videos/Messi.mp4" type="video/mp4">
+    </video>
+</section>
+
+    <!--Footer Section-->
+<footeer>
+    <p>&copy; 2025 Sharon Joseph. All Rights Reserved.</p>
+</footeer>
+</body>
+</html>
